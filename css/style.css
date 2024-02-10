@@ -1,0 +1,413 @@
+@import url(font-awesome.min.css);
+
+.material-symbols-outlined {
+	font-size: 89PX;
+	color: rgba(102, 102, 102, 0.753);
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 24
+}
+
+@font-face {
+	font-family: "releway";
+	src: url(../fonts/fontawesome-webfont.ttf);
+	src: url(../fonts/fontawesome-webfont.eot);
+	src: url(../fonts/fontawesome-webfont.woff);
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: "releway", "helvetica", "sans-serif";
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header h1 {
+	float: left;
+	color: #ffffff;
+}
+
+.nav {
+	text-align: right;
+}
+
+.header {
+	background-color: #444;
+	background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+.nav ul li {
+	display: inline;
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+.nav ul li a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.nav ul li a:hover {
+	color: #ffffff;
+	transition: color 2ms ease-out;
+}
+
+.btn-1:hover {
+	color: black;
+}
+
+.top-menu {
+	padding: 50px;
+}
+
+.top-menu a {
+	color: #ffffff;
+}
+
+.btn-1 {
+	color: rgba(0, 0, 0, 0.829);
+	background-color: #ffffff;
+	border: 0;
+	border-radius: 30px;
+	padding: 15px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+	line-height: 50px;
+	padding: 150px 0;
+}
+
+.content h2 {
+	color: #ffffff;
+	font-size: 60px;
+	line-height: 130px;
+}
+
+.content p {
+	font-size: 23px;
+	margin-bottom: 50px;
+	color: #ffffff;
+}
+
+.btn-2 {
+	color: #ffffff;
+	background-color: #3cadd4;
+	border: none;
+	border-radius: 30px;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.main-header {
+	text-align: center;
+	border-top: 1px solid rgba(144, 144, 144, 0.25);
+	border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+	background-color: #ffffff;
+	padding: 100px 0;
+	line-height: 45px;
+}
+
+.main-header h2 {
+	font-size: 45px;
+	color: rgb(39, 39, 39);
+}
+
+.main-header p {
+	font-size: 22.5px;
+	color: #444;
+}
+
+.services {
+	text-align: center;
+	background-color: #ffffff;
+	border-top: 1px solid rgba(144, 144, 144, 0.25);
+	border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+	padding: 100px 0;
+}
+
+.serivce-header {
+	margin-bottom: 50px;
+}
+
+.serivce-header h2 {
+	font-size: 42px;
+	color: #474747;
+	margin-bottom: 12px;
+}
+
+.serivce-header p {
+	font-size: 22px;
+	color: #858585;
+}
+
+.icon::before {
+	font-family: fontAwsome;
+	font-style: normal;
+
+}
+
+.color-blue {
+	background-color: #3cadd4;
+	color: #ffffff;
+}
+
+.color-green {
+	background-color: #add43c;
+	color: #ffffff;
+}
+
+.color-red {
+	background-color: #d43c61;
+	color: #ffffff;
+}
+
+.icon.rounded {
+	text-align: center;
+	color: #ffffff;
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+}
+
+.rounded {
+	border-radius: 100%;
+
+}
+
+.big {
+	font-size: 40px;
+	padding: 35px 50p;
+}
+
+.servic-content>* {
+	float: left;
+
+}
+
+.box {
+	background-color: #ffffff;
+	padding: 70px 30px;
+	border-radius: 4px;
+	border: 1px solid rgba(144, 144, 144, 0.25);
+	margin: 0 10px;
+	width: calc(100%/4);
+}
+
+.servic-content:after,
+.servic-content::before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box h4 {
+	color: #858585;
+	font-size: 20px;
+	margin: 60px 0 30px 0;
+}
+
+.box p {
+	line-height: 25px;
+}
+
+.servic-content {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.about {
+	border: 1px solid rgba(144, 144, 144, 0.25);
+}
+
+.about-header {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.about-header h2 {
+	font-size: 50px;
+	color: #444;
+}
+
+.about-header p {
+	font-size: 20px;
+	color: #858585;
+	line-height: 28px;
+}
+
+.about-main {
+	text-align: center;
+	margin-top: 50px;
+	border-top: 1px solid rgba(144, 144, 144, 0.25);
+	border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+	margin: 60px auto;
+	width: 90%;
+	padding-top: 60px;
+}
+
+.about-main>* {
+	float: left;
+}
+
+.about-main:after,
+.about-main::before {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.profile img {
+	float: left;
+	border-radius: 50%;
+}
+
+.profile {
+	width: 25%;
+	margin-bottom: 60px;
+}
+
+.about-main h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.about-main p {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.about-footer {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.about-footer p {
+	font-size: 16.9px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: #636363;
+}
+
+.btn-3 {
+	color: #ffffff;
+	background-color: #3cadd4;
+	border: none;
+	border-radius: 30px;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 30px;
+}
+
+.content-2 {
+	background-color: #3cadd4;
+	color: #ffffff;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.content-header {
+	text-align: center;
+}
+
+.content-header h2 {
+	font-size: 40px;
+}
+
+.content-header p {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+/* input[type="text"],
+input[type="email"]:{
+	background-color: #ffffff;
+	color: #636363;
+	border: none;
+	border-radius:5px;
+	width: 25%;
+	padding: 45px 11px;
+} */
+input[type="text"] {
+	width: 270px;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	margin-right: 6px;
+	background-color: #ffffff;
+	color: #636363;
+}
+
+input[type="email"] {
+	width: 270px;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	margin-left: 6px;
+	background-color: #ffffff;
+	color: #636363;
+}
+
+textarea {
+	background-color: #ffffff;
+	color: #636363;
+	border-radius: 4px;
+	border: none;
+	font-family: "releway", "helvetica", "sans-serif";
+	resize: none;
+}
+
+.btn-4 {
+	color: #ffffff;
+	border: none;
+	background-color: #444;
+	border-radius: 50px;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 30px;
+}
+
+.btn-4:hover {
+	color: #b6b6b6;
+}
+
+.footer {
+	background-color: #383b43;
+	color: #858585;
+	padding: 100px 0;
+
+
+}
+
+.footer a {
+	color: #858585;
+}
+
+.footer a:hover {
+	color: #ffffff;
+}
+
+.footer-1 dd {
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 5px;
+}
